@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class typescasting{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        int bill_id=sc.nextInt();
+        int customer_id=sc.nextInt();
+        int discount=sc.nextInt();
+        int bill_amnt=sc.nextInt();
+        double discounted_bill_amount=bill_amnt-bill_amnt*(discount/100);
+        System.out.println("The Bill ID is : "+bill_id);
+         System.out.println("The Customer ID is : "+customer_id);
+         System.out.println("The Discount is : "+discount); 
+         System.out.println("The Bill Amount is : "+bill_amnt);
+         System.out.println("The Discounted Bill Amount is : "+discounted_bill_amount);
+    }
+}
